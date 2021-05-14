@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import Header from "./Header";
 function App() {
   return (
     <Router>
@@ -14,6 +14,36 @@ function App() {
           </Route>
           {/* This is the default route */}
           <Route path="/">
+            <Header />
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
+            <h1>HOME PAGE!!!</h1>
             <h1>HOME PAGE!!!</h1>
           </Route>
         </Switch>
