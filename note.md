@@ -12,3 +12,4 @@ Steps to clone amazon app:
 - Build the product component
 - React context api
 - Set up Add to basket button
+- Build the checkout page
