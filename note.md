@@ -9,3 +9,4 @@ Steps to clone amazon app:
 - Create the frame for the website (set up Route in App.js)
 - Build the navbar
   - install material-ui
+- Build the product component
