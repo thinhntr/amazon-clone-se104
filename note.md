@@ -15,3 +15,4 @@ Steps to clone amazon app:
 - Build the checkout page
 - build the subtotal component
   - install react-currency-format
+- Build the login page

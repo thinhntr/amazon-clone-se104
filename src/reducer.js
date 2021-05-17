@@ -1,13 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: "1235",
-      image: "https://m.media-amazon.com/images/I/71lUwxmW0PL._AC_UL320_.jpg",
-      price: 9.99,
-      rating: 4,
-      title: "Gildan Women's Softstyle Cotton T-Shirt, Style G64000l, 2-Pack",
-    },
-  ],
+  basket: [],
   user: null,
 };
 
@@ -17,6 +9,8 @@ export const getBasketTotal = (basket) =>
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
+    case "SET_USER":
+      return { ...state, user: action.user };
     case "ADD_TO_BASKET":
       // Logic for addding item for basket
       return { ...state, basket: [...state.basket, action.item] };
