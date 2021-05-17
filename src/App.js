@@ -27,17 +27,4 @@ function App() {
   );
 }
 
-{
-  /* Need react-router for switching between pages 👇 */
-}
-{
-  /* localhost.com */
-}
-{
-  /* localhost.com/checkout */
-}
-{
-  /* localhost.com/login */
-}
-
 export default App;
